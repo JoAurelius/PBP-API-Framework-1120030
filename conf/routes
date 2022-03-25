@@ -1,0 +1,6 @@
+module:revel_user_management
+
+GET         /users                                      user_controller.GetAllUser
+POST        /users                                      user_controller.InsertNewUser
+POST        /users                                      user_controller.UpdateUser
+POST        /users/:id/delete                           user_controller.DeleteUser
